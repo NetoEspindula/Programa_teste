@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   background-color: #f3f3f3;
   cursor: pointer;
-  font-family: sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -29,7 +29,6 @@ header {
   background-color: rgb(36, 36, 36);
   border-radius: 1px;
 }
-
 
 .navbar {
   display: flex;
@@ -85,7 +84,6 @@ img {
   padding: 5px;
 }
 
-
 .content img {
   margin-top: 30px;
   width: 100%;
@@ -109,7 +107,7 @@ img {
 }
 
 .content p {
-  font-size: 15px;
+  font-size: 18px;
   padding: 12px;
   color: rgb(0, 0, 0);
   text-align: justify;
@@ -157,7 +155,7 @@ img {
 
 .card p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
@@ -169,7 +167,6 @@ img {
   width: 100px;
   padding: 0;
 }
-
 
 .container-meio {
   background-color: rgb(36, 36, 36);
@@ -189,7 +186,7 @@ img {
 }
 
 .container-meio p {
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -226,7 +223,7 @@ button:hover {
 }
 
 .parceiros-area p {
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(0, 0, 0);
   text-align: center;
 
@@ -272,11 +269,10 @@ button:hover {
 }
 
 .parceiros p {
-  font-size: 12px;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   text-align: justify;
 }
-
 
 .parceiros button {
   background-color: #009BFE;
@@ -345,7 +341,6 @@ footer img{
   background-color: #009BFE;
 }
 
-
 @media (max-width: 768px) {
   h1, .content h2 {
     font-size: 26px;
@@ -373,4 +368,67 @@ footer img{
   .content p {
     text-align: left; 
   }
+}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+
+.content-sobre h1 {
+  font-size: 32px;
+  color: rgb(0, 136, 255);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sobre {
+  background-color: rgb(230, 230, 230);
+  width: min(800px, 92vw);   
+  min-height: 650px;           
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto 50px auto;
+  text-align: center;
+
+}
+
+.sobre p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+ 
+.container-logo-sobre {
+  background-color: rgb(36, 36, 36);
+  width: min(800px, 92vw);   
+  min-height: 650px;           
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto 50px auto;
+  text-align: center;
+
+}
+
+.container-logo-sobre h1 {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container-logo-sobre p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.container-logo-sobre img {
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin-bottom: 20px;
 }
