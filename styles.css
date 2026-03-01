@@ -352,7 +352,7 @@ footer img{
   }
 
   .nav-list {
-    gap: 10px;
+    gap: 5px;
   }
 
   .card {
@@ -371,6 +371,6 @@ footer img{
   }
 
   .content p {
-    text-align: left; /* no celular fica mais confortável */
+    text-align: left; 
   }
 }
