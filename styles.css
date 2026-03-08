@@ -351,6 +351,7 @@ footer img {
 
   .nav-list {
     gap: 2px;
+    font-size: 10px;
   }
 
   .card {
@@ -369,7 +370,7 @@ footer img {
   }
 
   .content p {
-    text-align: left;
+    text-align: center;
   }
 }
 
