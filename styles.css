@@ -348,55 +348,6 @@ footer img {
   background-color: #009BFE;
 }
 
-@media (max-width: 768px) {
-
-  h1,
-  .content h2 {
-    font-size: 26px;
-  }
-
-  .nav-list {
-    gap: 2px;
-    font-size: 5px;
-  }
-
-  .nav-list a {
-    text-decoration: none;
-    font-size: 10px;
-    color: white;
-    padding: 6px 2px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-weight: bold;
-  }
-
-  .card {
-    width: min(320px, 92vw);
-    padding: 20px;
-  }
-
-  .footer-grid {
-    gap: 10px;
-  }
-
-  .footer-grid div {
-    min-width: auto;
-    width: 100%;
-    align-items: center;
-  }
-
-  .content p {
-    text-align: center;
-  }
-}
-
-/**************************************************************/
-/**************************************************************/
-/**************************************************************/
-/**************************************************************/
-
 /* SOBRE */
 .content-sobre h1 {
   font-size: 32px;
@@ -714,4 +665,73 @@ padding: 10px;
 .servicos button:hover {
   background-color: #024b79;
   color: #8a8a8a;
+}
+
+@media (max-width: 768px) {
+
+  h1,
+  .content h2 {
+    font-size: 26px;
+  }
+
+.servicos li {
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  margin: 12px 0;
+  color: #ffffff;
+  font-weight: 12px;
+  font-size: 20px;
+}
+
+.servicos h1 {
+  font-size: 25px;
+  color: #0088ff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.servicos h2 {
+  font-size: 25px;
+  color: #0088ff;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+  .nav-list {
+    gap: 2px;
+    font-size: 5px;
+  }
+
+  .nav-list a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    padding: 6px 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: bold;
+  }
+
+  .card {
+    width: min(320px, 92vw);
+    padding: 20px;
+  }
+
+  .footer-grid {
+    gap: 10px;
+  }
+
+  .footer-grid div {
+    min-width: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  .content p {
+    text-align: center;
+  }
 }
