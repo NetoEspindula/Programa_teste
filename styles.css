@@ -137,8 +137,7 @@ nav ul li a:hover {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 12px;
-  margin-bottom: 50PX;
+
 }
 
 .card {
@@ -233,6 +232,7 @@ button:hover {
   font-size: 20px;
   color: rgb(0, 136, 255);
   text-align: center;
+  margin-top: 10px;
 }
 
 .parceiros-area h1 {
@@ -241,11 +241,12 @@ button:hover {
   text-align: center;
 }
 
+
 .parceiros-area p {
   font-size: 18px;
   color: rgb(0, 0, 0);
   text-align: center;
-  margin-bottom: 20PX;
+  margin-bottom: 20px;
 }
 
 .container-fim {
@@ -294,11 +295,6 @@ button:hover {
   text-align: justify;
 }
 
-.btn {
-  text-decoration: none;
-  color: inherit;
-}
-
 
 .btn {
   background-color: #009BFE;
@@ -311,7 +307,9 @@ button:hover {
   font-weight: bold;
   padding: 8px 10px;
   cursor: pointer;
+  text-decoration: none;
 }
+
 
 .btn:hover {
   background-color: #024b79;
@@ -446,13 +444,13 @@ footer img {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 12px;
-  margin-bottom: 50PX;
+  margin-bottom: 20PX;
 }
 
 .contato {
   background-color: rgb(36, 36, 36);
-  width: 260px;
-  min-height: 250px;
+  width: 200px;
+  width: min(250px, 92vw);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -556,7 +554,7 @@ footer img {
   font-size: 32px;
   color: rgb(0, 136, 255);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .btn-enviar {
@@ -608,11 +606,11 @@ footer img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 20PX;
+  padding: 20px;
   margin-top: 50px;
 }
 
-.servicos .servicos h1 {
+.servicos h1 {
   font-size: 32px;
   color: #0088ff;
   text-align: center;
@@ -730,13 +728,6 @@ html {
 /*############################################################### PAGINA RELATOS ###############################################################*/
 /*############################################################### PAGINA RELATOS ###############################################################*/
 
-.content h1 {
-  font-size: 32px;
-  color: rgb(0, 136, 255);
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
 .relato-container {
   background-color: rgb(36, 36, 36);
