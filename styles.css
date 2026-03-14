@@ -35,6 +35,15 @@ header {
   border-radius: 1px;
 }
 
+.logo {
+  height: 100px;
+  width: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -52,15 +61,8 @@ header {
   justify-content: center;
 }
 
-nav ul li a {
-  color: #ffffff;
-  transition: 0.3s;
-
-}
-
-nav ul li a:hover {
-  color: rgb(255, 255, 255);
-  background-color: #024b79;
+.nav-list li {
+  position: relative;
 }
 
 .nav-list a {
@@ -73,6 +75,11 @@ nav ul li a:hover {
   align-items: center;
   gap: 8px;
   font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-list a:hover {
+  background-color: #024b79;
 }
 
 .nav-icon {
@@ -80,15 +87,36 @@ nav ul li a:hover {
   height: 20px;
 }
 
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background: #024b79;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 160px;
+  border-radius: 8px;
+  overflow: hidden;
 
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
 
-.logo {
-  height: 100px;
-  width: 90px;
+.dropdown-menu a {
+  padding: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
+  font-size: 8px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #023758;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*############################################################### INDEX PRINCIPAL ###############################################################*/
