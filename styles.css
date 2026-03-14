@@ -868,17 +868,18 @@ html {
 
 }
 
-.texto h1{
-margin-top: 50px;
-margin-bottom: 5px;
+.texto h1 {
+  margin-top: 50px;
+  margin-bottom: 5px;
 
 }
 
-.texto p{
-margin-bottom: 50px;
-text-align: center;
+.texto p {
+  margin-bottom: 50px;
+  text-align: center;
 
 }
+
 .container-equipe h2 {
   font-size: 20px;
   color: rgb(0, 136, 255);
@@ -908,6 +909,14 @@ text-align: center;
     font-size: 26px;
   }
 
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    min-width: 100%;
+    border-radius: 0;
+  }
+
+
   .btn {
     display: flex;
     flex-direction: column;
@@ -918,7 +927,8 @@ text-align: center;
   }
 
   .container-equipe-geral {
-    grid-template-columns: 1fr; /* 1 card por linha */
+    grid-template-columns: 1fr;
+    /* 1 card por linha */
     width: min(350px, 92vw);
   }
 
