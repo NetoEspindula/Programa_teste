@@ -100,9 +100,12 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
-  min-width: 190px;
+  width: max-content;   /* largura baseada no texto */
+  max-width: 90vw;      /* nunca passa da largura da tela */
   border-radius: 8px;
   overflow: hidden;
+
+  white-space: nowrap;
 
   opacity: 0;
   visibility: hidden;
@@ -913,13 +916,6 @@ html {
   .content h2 {
     font-size: 26px;
   }
-
-  .dropdown-menu {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-
 
   .btn {
     display: flex;
