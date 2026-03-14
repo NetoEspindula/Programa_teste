@@ -554,6 +554,18 @@ footer img {
   text-align: left;
 }
 
+.entramos-contato textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  min-height: 60px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+
 .entramos-contato form {
   width: 100%;
   display: flex;
@@ -797,6 +809,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
 
