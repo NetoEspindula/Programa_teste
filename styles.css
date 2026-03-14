@@ -87,15 +87,20 @@ header {
   height: 20px;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .dropdown-menu {
   position: absolute;
   top: 45px;
   left: 0;
+  transform: translateX(-50%);
   background: #024b79;
   list-style: none;
   padding: 0;
   margin: 0;
-  min-width: 240px;
+  min-width: 190px;
   border-radius: 8px;
   overflow: hidden;
 
@@ -909,10 +914,10 @@ html {
     font-size: 26px;
   }
 
-.dropdown-menu {
-  left: 50%;
-  transform: translateX(-50%);
-}
+  .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
 
 
