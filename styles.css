@@ -100,8 +100,8 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: max-content;   /* largura baseada no texto */
-  max-width: 90vw;      /* nunca passa da largura da tela */
+  width: max-content; 
+  max-width: 90vw;    
   border-radius: 8px;
   overflow: hidden;
 
@@ -928,7 +928,6 @@ html {
 
   .container-equipe-geral {
     grid-template-columns: 1fr;
-    /* 1 card por linha */
     width: min(350px, 92vw);
   }
 
